@@ -42,7 +42,6 @@ public class Transition {
 		return false;
 	}
 	
-	
 	public static int findNextNode(char aLetter, int currNode, ArrayList<Transition> trArrayList) {
 		
 		for(Transition aTransition : trArrayList) {
